@@ -1,0 +1,33 @@
+ul{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+ul li{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #EEE0C9;
+  border-radius: 1rem;
+}
+ul h2{
+  margin-top: 1rem;
+  background-color: transparent;
+}
+ul strong{
+  margin-top: 1rem;
+  background-color: transparent;
+}
+ul li img{
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+ul button{
+  margin-top: auto;
+  border: none;
+  background-color: transparent;
+}

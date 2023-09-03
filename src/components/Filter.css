@@ -1,0 +1,16 @@
+section{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 2rem;
+  & div{
+    display: flex;
+    gap: 1rem;
+    & label {
+    font-family: sans-serif;
+    }
+    & span {
+    width: 3.5rem;
+    }
+  }
+}
